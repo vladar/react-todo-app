@@ -14,10 +14,11 @@
 		"react-icons": "^4.3.1",
 		"react-redux": "^7.2.6",
 		"react-scripts": "5.0.0",
-		"uuid": "^8.3.2"
+		"uuid": "^8.3.2",
+		"valtio": "^1.11.1"
 	},
 	"scripts": {
-		"start": "react-scripts start",
+		"start": "cross-env DISABLE_ESLINT_PLUGIN=true react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
@@ -49,6 +50,7 @@
 		]
 	},
 	"devDependencies": {
-		"eslint-config-wesbos": "^3.0.2"
+		"eslint-config-wesbos": "^3.0.2",
+		"cross-env": "^7.0.3"
 	}
 }
