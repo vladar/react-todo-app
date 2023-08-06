@@ -8,7 +8,7 @@ import { deleteTodo, updateTodo } from '../slices/todoSlice';
 import styles from '../styles/modules/todoItem.module.scss';
 import { getClasses } from '../utils/getClasses';
 import CheckButton from './CheckButton';
-import TodoModal from './TodoModal';
+import TodoModal from './TodoModal.converted';
 
 const child = {
   hidden: { y: 20, opacity: 0 },
